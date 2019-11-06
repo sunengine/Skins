@@ -1,9 +1,9 @@
-# SunEngine Skins
+# SunEngine.Skins
 ## Public SunEngine skins repository.
 
 Skin archive have to be `zip` archive and contains files:
 - `styles.css` - main skin file. This in only file plugged in.
-- `previrew.png` - preview image with 1200 x 600 page size and on main demo page with default menu, 
+- `preview.png` - preview image with 1200 x 600 page size and on main demo page with default menu, 
 - `readme.md` - information about skin
 - Css source files (**scss** recomended) [if needed]
 - `variables.scss` - Source of scss constants.
