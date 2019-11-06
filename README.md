@@ -11,8 +11,6 @@ Skin archive have to be `zip` archive and contains files:
 - Images files [if needed]
 - Fonts files [if needed]
 
-Skin name will be the same as folder name in repository.  
-Skin name in admin panel will be zip archive name.
 
 **All skins available for free use.   
 All skins are going at [SunEngine License](https://github.com/sunengine/SunEngine/blob/master/LICENSE.md).**
