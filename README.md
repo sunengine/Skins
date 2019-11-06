@@ -1,5 +1,5 @@
 # SunEngine Skins
-## Public repository of all SunEngine skins. 
+## Public SunEngine skins repository.
 
 Skin archive have to be `zip` archive and contains files:
 - `styles.css` - main skin file. This in only file plugged in.
