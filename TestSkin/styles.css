@@ -34,12 +34,12 @@ a:hover, .link:hover {
 }
 
 .refresh-btn {
-  background-color: #31CCEC;
+  background-color: #31CCEC !important;
   color: white !important;
 }
 
 .reset-btn {
-  background-color: #31CCEC;
+  background-color: #31CCEC !important;
   color: white !important;
 }
 
