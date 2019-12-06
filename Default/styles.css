@@ -1,226 +1,188 @@
-html {
-  color: #06000d !important;
+.skin-default html {
+  color: #06000d;
   font-family: "Open Sans", sans-serif;
 }
-
-a, .link {
+.skin-default .link {
   text-decoration: none;
   color: #3498db;
 }
-a:hover, .link:hover {
+.skin-default .link:hover {
   color: #2472b3;
+  text-decoration: underline;
 }
-
-.send-btn {
-  background-color: #54e288 !important;
-  color: white !important;
+.skin-default .send-btn {
+  background-color: #54e288;
+  color: white;
 }
-
-.post-btn {
-  background-color: #c4f0ff !important;
-  color: grey !important;
+.skin-default .post-btn {
+  background-color: #c4f0ff;
+  color: #616161;
 }
-
-.cancel-btn {
-  background-color: #F2C037 !important;
-  color: white !important;
+.skin-default .cancel-btn {
+  background-color: #F2C037;
+  color: white;
 }
-
-.refresh-btn {
-  background-color: #31CCEC !important;
-  color: white !important;
+.skin-default .refresh-btn {
+  background-color: #31CCEC;
+  color: white;
 }
-
-.reset-btn {
-  background-color: #31CCEC !important;
-  color: white !important;
+.skin-default .reset-btn {
+  background-color: #31CCEC;
+  color: white;
 }
-
-.delete-btn {
-  background-color: #C10015 !important;
-  color: white !important;
+.skin-default .delete-btn {
+  background-color: #C10015;
+  color: white;
 }
-
-.bg-pagination {
-  background-color: #24c7ff !important;
-}
-
-.text-pagination {
-  color: #3498db !important;
-}
-
-.layout__header {
-  border-bottom: 1px solid #cbcbcb;
-}
-
-.layout__toolbar {
+.skin-default .bg-pagination {
   background-color: #24c7ff;
 }
-
-.layout__title {
+.skin-default .text-pagination {
+  color: #3498db;
+}
+.skin-default .layout__header {
+  border-bottom: 1px solid #cbcbcb;
+}
+.skin-default .layout__toolbar {
+  background-color: #24c7ff;
+}
+.skin-default .layout__title, .skin-default .layout__title-link {
   font-family: "Jomolhari";
   letter-spacing: 1.4px;
   font-size: 1.4rem;
   font-weight: bold;
-}
-.layout__title a {
   color: white;
 }
-
-.main-menu-drawer {
+.skin-default .main-menu-drawer {
   background-color: unset;
 }
-
-.layout__toolbar__menu-btn {
+.skin-default .layout__toolbar__menu-btn {
   color: white;
 }
-
-.layout__toolbar__user-btn {
+.skin-default .layout__toolbar__user-btn {
   color: white;
 }
-
-.layout__user-avatar {
-  width: 32px !important;
-  height: 32px !important;
-  box-shadow: 0px 0px 4px 1.5px white !important;
+.skin-default .layout__user-avatar {
+  width: 32px;
+  height: 32px;
+  box-shadow: 0px 0px 4px 1.5px white;
 }
-
-.layout__footer {
+.skin-default .layout__footer {
   text-align: center;
-  color: #3498db !important;
+  color: #3498db;
   font-weight: bold;
   letter-spacing: 1px;
-  background-color: #d4f0ff !important;
+  background-color: #d4f0ff;
   padding: 18px 0;
   border-top: 1px solid #cbcbcb;
 }
-.layout__footer a {
+.skin-default .layout__footer-link {
   color: #3498db;
 }
-
-.layout__footer-line {
+.skin-default .layout__footer-line {
   margin: 12px 0;
 }
-
-.sun-engine-footer__link {
-  color: orange !important;
-}
-
-.layout__footer-separator-icon {
+.skin-default .layout__footer-separator-icon {
   margin: 0 16px;
-  color: #ffa500 !important;
+  color: #ffa500;
 }
-
-.main-menu__logo-div {
-  padding: 22px 0 30px 0;
-  text-align: center;
+.skin-default .main-menu .q-router-link--active {
+  background-color: #d4f0ff;
 }
-
-.main-menu__logo-img {
-  width: 204px;
-  height: 204px;
-  border-radius: 102px;
-  box-shadow: 0 0 8px 1px grey;
+.skin-default .main-menu .q-router-link--active .q-item__section--main {
+  color: #06000d;
 }
-
-.main-menu .q-router-link--active {
-  background-color: #d4f0ff !important;
+.skin-default .main-menu .q-router-link--active .q-item__section--avatar {
+  color: #3498db;
 }
-.main-menu .q-router-link--active .q-item__section--main {
-  color: unset !important;
+.skin-default .main-menu .q-item__section--avatar {
+  margin: 0;
+  padding: 0;
+  width: 60px;
+  color: #3498db;
+  justify-items: center;
+  align-items: center;
 }
-.main-menu .q-router-link--active .q-item__section--avatar {
-  color: unset !important;
-}
-.main-menu .q-item__section--avatar {
-  margin: 0 !important;
-  padding: 0 !important;
-  width: 60px !important;
-  color: #3498db !important;
-  justify-items: center !important;
-  align-items: center !important;
-}
-.main-menu .q-item__section--main {
+.skin-default .main-menu .q-item__section--main {
   font-size: 1.2em;
-  color: unset !important;
+  color: #06000d;
 }
-.main-menu .q-item__label--caption {
+.skin-default .main-menu .q-item__label--caption {
   font-size: 0.8em;
 }
-
-.side-panel__header {
+.skin-default .side-menu-drawer {
+  background-color: unset;
+}
+.skin-default .side-panel__header {
   text-align: center;
   margin: 0;
   padding: 7px 0 4px 0;
   text-transform: uppercase;
-  font-size: 0.9rem !important;
+  font-size: 0.9rem;
   font-weight: bolder;
   background-color: #c3edda;
   border-bottom: 1px solid #f1f1f1;
   color: #666666;
 }
-
-.side-panel__header-link {
+.skin-default .side-panel__header-link {
   color: #666666;
 }
-
-.side-panel__header-icon {
+.skin-default .side-panel__header-icon {
   color: unset;
 }
-
-.side-panel .q-router-link--active {
-  background-color: #d4f0ff !important;
+.skin-default .side-panel .q-router-link--active {
+  background-color: #d4f0ff;
 }
-.side-panel .q-router-link--active .q-item__section--main {
-  color: #3498db !important;
+.skin-default .side-panel .q-router-link--active .q-item__section--main {
+  color: #3498db;
 }
-.side-panel .q-router-link--active .q-item__section--avatar {
-  color: black !important;
+.skin-default .side-panel .q-router-link--active .q-item__section--avatar {
+  color: black;
 }
-
-.material__text h3, .post__text h3, .comment__text h3 {
+.skin-default .material__text h3, .skin-default .post__text h3, .skin-default .comment__text h3 {
   font-size: 1.55rem;
-  font-weight: 500 !important;
+  font-weight: 500;
   line-height: 1.7rem;
-  margin: 35px 0 14px 0 !important;
+  margin: 35px 0 14px 0;
   border-bottom: 2px dashed #c1dfee;
   padding: 0 0 8px 0;
 }
-.material__text h4, .post__text h4, .comment__text h4 {
+.skin-default .material__text h4, .skin-default .post__text h4, .skin-default .comment__text h4 {
   font-size: 1.35rem;
-  font-weight: 500 !important;
+  font-weight: 500;
   line-height: 1.4rem;
-  margin: 24px 0 10px 0 !important;
+  margin: 24px 0 10px 0;
   border-bottom: 1px dashed #c1dfee;
   padding: 0 0 6px 0;
 }
-.material__text h5, .post__text h5, .comment__text h5 {
+.skin-default .material__text h5, .skin-default .post__text h5, .skin-default .comment__text h5 {
   font-size: 1.2rem;
-  font-weight: 500 !important;
+  font-weight: 500;
   line-height: 1.3rem;
-  margin: 16px 0 8px 0 !important;
+  margin: 16px 0 8px 0;
   padding: 0;
 }
-.material__text h6, .post__text h6, .comment__text h6 {
+.skin-default .material__text h6, .skin-default .post__text h6, .skin-default .comment__text h6 {
   font-size: 1.05rem;
-  font-weight: 500 !important;
+  font-weight: 500;
   line-height: 1.1rem;
-  margin: 10px 0 6px 0 !important;
+  margin: 10px 0 6px 0;
   padding: 0;
 }
-.material__text blockquote, .post__text blockquote, .comment__text blockquote {
-  border-left: 3px solid #a6c59e !important;
+.skin-default .material__text blockquote, .skin-default .post__text blockquote, .skin-default .comment__text blockquote {
+  border-left: 3px solid #a6c59e;
   padding: 6px 0 6px 15px;
   background-color: #f6f6f6;
   margin: 0 0 16px 0;
 }
-
-.index-page__header {
-  color: #00acef !important;
+.skin-default .index-page__header {
+  color: #00acef;
 }
-
-.index-page__info-block-accent {
+.skin-default .index-page__info-block-accent {
   color: #a38167;
+}
+.skin-default .sun-engine-footer__link {
+  color: orange;
 }
 
 /*# sourceMappingURL=styles.css.map */
