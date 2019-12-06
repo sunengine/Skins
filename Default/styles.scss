@@ -3,6 +3,7 @@
 
 $text-color: #06000d;
 $link-color: #3498db;
+$link-hover-color: #2472b3;
 
 $header-bg-color: #24c7ff;
 $header-text-color: white;
@@ -48,8 +49,17 @@ $reset-btn-text-color: white;
 $delete-btn-bg-color: $negative;
 $delete-btn-text-color: white;
 
-$material-heading-underline-color: #c1dfee;
+$pagination-bg: $header-bg-color;
+$pagination-text: $link-color;
+
+$material-h-underline-color: #c1dfee;
 $blockquote-left-line-color: #a6c59e;
+$blockquote-text-color: unset;
+$blockquote-bg-color: unset;
+
+$index-page-header-color: #00acef;
+$index-page-accent-color: #a38167;
+$sun-engine-footer-link-color: orange;
 
 
 .skin-default {
@@ -66,7 +76,7 @@ $blockquote-left-line-color: #a6c59e;
     color: $link-color;
 
     &:hover {
-      color: #2472b3;
+      color: $link-hover-color;
       text-decoration: underline;
     }
   }
@@ -105,11 +115,11 @@ $blockquote-left-line-color: #a6c59e;
   }
 
   .bg-pagination {
-    background-color: $header-bg-color;
+    background-color: $pagination-bg;
   }
 
   .text-pagination {
-    color: $link-color;
+    color: $pagination-text;
   }
 
 
@@ -149,7 +159,7 @@ $blockquote-left-line-color: #a6c59e;
   .layout__user-avatar {
     width: 32px;
     height: 32px;
-    box-shadow: 0px 0px 4px 1.5px white;
+    box-shadow: 0 0 4px 1.5px white;
   }
 
 
@@ -176,6 +186,9 @@ $blockquote-left-line-color: #a6c59e;
     color: $footer-separator-icon-color;
   }
 
+  .sun-engine-footer__link {
+    color: $sun-engine-footer-link-color;
+  }
 
   // ——— Main Menu ——————————————————————————————————
 
@@ -262,7 +275,7 @@ $blockquote-left-line-color: #a6c59e;
       font-weight: 500;
       line-height: 1.7rem;
       margin: 35px 0 14px 0;
-      border-bottom: 2px dashed $material-heading-underline-color;
+      border-bottom: 2px dashed $material-h-underline-color;
       padding: 0 0 8px 0;
     }
 
@@ -271,7 +284,7 @@ $blockquote-left-line-color: #a6c59e;
       font-weight: 500;
       line-height: 1.4rem;
       margin: 24px 0 10px 0;
-      border-bottom: 1px dashed $material-heading-underline-color;
+      border-bottom: 1px dashed $material-h-underline-color;
       padding: 0 0 6px 0;
     }
 
@@ -294,7 +307,8 @@ $blockquote-left-line-color: #a6c59e;
     blockquote {
       border-left: 3px solid $blockquote-left-line-color;
       padding: 6px 0 6px 15px;
-      background-color: #f6f6f6;
+      background-color: $blockquote-bg-color;
+      color: $blockquote-text-color;
       margin: 0 0 16px 0;
     }
   }
@@ -303,18 +317,11 @@ $blockquote-left-line-color: #a6c59e;
   // ——— Index Page ———————————————————————————
 
   .index-page__header {
-    color: #00acef;
+    color: $index-page-header-color;
   }
 
   .index-page__info-block-accent {
-    color: #a38167;
-  }
-
-
-  // ——— SunEngine Footer Link ———————————————————————————
-
-  .sun-engine-footer__link {
-    color: orange;
+    color: $index-page-accent-color;
   }
 
 }
