@@ -1,6 +1,5 @@
 .skin-green-deep html {
   color: #06000d;
-  font-family: "Open Sans", sans-serif;
 }
 .skin-green-deep .link {
   text-decoration: none;
@@ -19,19 +18,19 @@
   color: white;
 }
 .skin-green-deep .cancel-btn {
-  background-color: #F2C037;
+  background-color: #f2c037;
   color: white;
 }
 .skin-green-deep .refresh-btn {
-  background-color: #31CCEC;
+  background-color: #31ccec;
   color: white;
 }
 .skin-green-deep .reset-btn {
-  background-color: #31CCEC;
+  background-color: #31ccec;
   color: white;
 }
 .skin-green-deep .delete-btn {
-  background-color: #C10015;
+  background-color: #c10015;
   color: white;
 }
 .skin-green-deep .bg-pagination {
@@ -40,20 +39,22 @@
 .skin-green-deep .text-pagination {
   color: #757575;
 }
+.skin-green-deep .q-breadcrumbs__el {
+  color: #00acc1;
+}
+.skin-green-deep .q-breadcrumbs--last .q-breadcrumbs__el {
+  color: #9e9e9e;
+}
 .skin-green-deep .layout__header {
   border-bottom: 1px solid #cbcbcb;
 }
 .skin-green-deep .layout__toolbar {
   background-color: #69da2b;
 }
-.skin-green-deep .layout__title-block {
-  font-family: "Jomolhari";
-}
 .skin-green-deep .layout__title {
   letter-spacing: 1.4px;
   font-size: 1.6rem;
   font-weight: bold;
-  line-height: 92%;
   color: white;
 }
 .skin-green-deep .layout__sub-title {
@@ -61,7 +62,7 @@
   font-size: 1rem;
   font-weight: bold;
   color: white;
-  line-height: 92%;
+  margin-top: -10px;
   font-variant: all-petite-caps;
 }
 .skin-green-deep .main-menu-drawer {
@@ -73,7 +74,7 @@
 .skin-green-deep .layout__toolbar__user-btn {
   color: white;
 }
-.skin-green-deep .layout__user-avatar {
+.skin-green-deep .layout__avatar {
   width: 32px;
   height: 32px;
   box-shadow: 0px 0px 4px 1.5px white;
@@ -153,7 +154,16 @@
 .skin-green-deep .side-panel .q-router-link--active .q-item__section--avatar {
   color: black;
 }
-.skin-green-deep .material__text h3, .skin-green-deep .post__text h3, .skin-green-deep .comment__text h3 {
+.skin-green-deep .material__text,
+.skin-green-deep .post__text,
+.skin-green-deep .comment__text {
+  text-align: justify;
+  font-size: 18px;
+  font-weight: 300;
+}
+.skin-green-deep .material__text h3,
+.skin-green-deep .post__text h3,
+.skin-green-deep .comment__text h3 {
   font-size: 1.55rem;
   font-weight: 500;
   line-height: 1.7rem;
@@ -161,7 +171,9 @@
   border-bottom: 2px dashed #c1dfee;
   padding: 0 0 8px 0;
 }
-.skin-green-deep .material__text h4, .skin-green-deep .post__text h4, .skin-green-deep .comment__text h4 {
+.skin-green-deep .material__text h4,
+.skin-green-deep .post__text h4,
+.skin-green-deep .comment__text h4 {
   font-size: 1.35rem;
   font-weight: 500;
   line-height: 1.4rem;
@@ -169,21 +181,27 @@
   border-bottom: 1px dashed #c1dfee;
   padding: 0 0 6px 0;
 }
-.skin-green-deep .material__text h5, .skin-green-deep .post__text h5, .skin-green-deep .comment__text h5 {
+.skin-green-deep .material__text h5,
+.skin-green-deep .post__text h5,
+.skin-green-deep .comment__text h5 {
   font-size: 1.2rem;
   font-weight: 500;
   line-height: 1.3rem;
   margin: 16px 0 8px 0;
   padding: 0;
 }
-.skin-green-deep .material__text h6, .skin-green-deep .post__text h6, .skin-green-deep .comment__text h6 {
+.skin-green-deep .material__text h6,
+.skin-green-deep .post__text h6,
+.skin-green-deep .comment__text h6 {
   font-size: 1.05rem;
   font-weight: 500;
   line-height: 1.1rem;
   margin: 10px 0 6px 0;
   padding: 0;
 }
-.skin-green-deep .material__text blockquote, .skin-green-deep .post__text blockquote, .skin-green-deep .comment__text blockquote {
+.skin-green-deep .material__text blockquote,
+.skin-green-deep .post__text blockquote,
+.skin-green-deep .comment__text blockquote {
   border-left: 3px solid #a6c59e;
   padding: 6px 0 6px 15px;
   background-color: unset;
